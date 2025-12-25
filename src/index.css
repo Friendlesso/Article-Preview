@@ -1,1 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import 'tailwindcss';
+
+:root {
+  /* Main Background Color */
+  --body-bg-color: hsl(210, 46%, 95%);
+
+  /* Heading color */
+  --dark-grayish-blue: hsl(217, 19%, 35%);
+
+  /* Paragraph color */
+  --dark-blue: hsl(214, 17%, 51%);
+
+  --grayish-blue: hsl(212, 23%, 69%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  padding: 6rem 1rem;
+  font-family: 'Manrope';
+  background-color: var(--body-bg-color);
+}
